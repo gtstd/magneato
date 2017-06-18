@@ -17,7 +17,9 @@ conda create -y -p ./venv \
     python=3.6 \
     numpy      \
     scipy      \
-    h5py
+    h5py       \
+    ipython    \
+    matplotlib
 
 # activate the environment
 activate
